@@ -1,0 +1,32 @@
+[
+  {
+    "label": "分层 + 缓存 + 工具兜底",
+    "effective_calls": 0.77,
+    "expected_attempts": 1.136364,
+    "attempt_cost": 0.01124,
+    "model_cost": 0.0105,
+    "tool_cost": 0.002273,
+    "human_cost": 0.3,
+    "cost_per_success": 0.312773
+  },
+  {
+    "label": "模型分层 + 缓存",
+    "effective_calls": 0.91,
+    "expected_attempts": 1.25,
+    "attempt_cost": 0.01192,
+    "model_cost": 0.01365,
+    "tool_cost": 0.00125,
+    "human_cost": 0.75,
+    "cost_per_success": 0.7649
+  },
+  {
+    "label": "全用强模型",
+    "effective_calls": 1.0,
+    "expected_attempts": 1.388889,
+    "attempt_cost": 0.06,
+    "model_cost": 0.083333,
+    "tool_cost": 0.0,
+    "human_cost": 1.35,
+    "cost_per_success": 1.433333
+  }
+]
